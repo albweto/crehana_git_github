@@ -1,5 +1,5 @@
-$primary: #ff7f00;
-$black2: #495057;
+$primary: #004cff;
+$black2: #3e4349;
 
 @import 'bootstrap/bootstrap.scss';
 
@@ -24,7 +24,7 @@ a, .btn-link{
 
 .btn.btn-primary{
 	font-weight: 500;
-	color: #fff;
+	color: rgb(142, 49, 49);
 }
 
 .section-title{
@@ -90,31 +90,31 @@ header{
 
 }
 
+
+
+
 .profile-options-modal{
-		.profile-options-list{
-			padding: 0;
-			margin: 0;
-			list-style: none;
+	.profile-options-list{
+		padding: 0;
+		margin: 0;
+		list-style: none;
 
-			li{
-				a{
-					display: block;
-					padding: 10px 0;
-					color: $black2;
+		li{
+			a{
+				display: block;
+				padding: 10px 0;
+				color: $black2;
 
-					i{
-						display: inline-block;
-						width: 18px;
-						text-align: center;
-						margin-right: 5px;
-					}
+				i{
+					display: inline-block;
+					width: 18px;
+					text-align: center;
+					margin-right: 5px;
 				}
 			}
 		}
 	}
-
-
-
+}
 // Main
 
 .main{
